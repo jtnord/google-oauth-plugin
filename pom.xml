@@ -72,14 +72,14 @@
     <google.api.version>1.25.0</google.api.version>
     <oauth2.revision>151</oauth2.revision>
     <google.http.version>1.21.0</google.http.version>
-    <lombok.version>1.18.8</lombok.version>
+    <lombok.version>1.18.18</lombok.version>
     <java.level>8</java.level>
     <findbugs.excludeFilterFile>findbugs-exclude.xml</findbugs.excludeFilterFile>
     <findbugs.effort>Max</findbugs.effort>
     <findbugs.threshold>Medium</findbugs.threshold>
     <doclint>none</doclint>
     <runSuite>**/GoogleOAuthPluginTestSuite.class</runSuite>
-    <configuration-as-code.version>1.35</configuration-as-code.version>
+    <configuration-as-code.version>1.47</configuration-as-code.version>
   </properties>
 
   <dependencyManagement>
@@ -97,7 +97,7 @@
     <dependency>
       <groupId>org.jenkins-ci.plugins</groupId>
       <artifactId>jackson2-api</artifactId>
-      <version>2.10.2</version>
+      <version>2.12.1</version>
     </dependency>
     <!-- Apache Commons IO dependency -->
     <dependency>
@@ -110,7 +110,7 @@
       <groupId>joda-time</groupId>
       <artifactId>joda-time</artifactId>
       <!-- XStream has deserialization warnings for Jodatime 2.0 or later -->
-      <version>2.9.5</version>
+      <version>2.10.10</version>
     </dependency>
     <!-- Test dependencies -->
     <dependency>
